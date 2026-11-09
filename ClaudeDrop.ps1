@@ -94,7 +94,7 @@ $savePos = {
 $form.Add_ResizeEnd($savePos)      # fires after the window is moved
 $form.Add_FormClosing($savePos)
 
-Add-Type -Namespace ClaudeDrop-Name Win32 -MemberDefinition @'
+Add-Type -Namespace ClaudeDrop -Name Win32 -MemberDefinition @'
 [DllImport("user32.dll")]
 public static extern bool SetWindowPos(IntPtr hWnd, IntPtr after, int x, int y, int cx, int cy, uint flags);
 [DllImport("user32.dll")]

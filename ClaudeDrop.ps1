@@ -39,7 +39,7 @@ function Save-SelectedMails {
         $item = $sel.Item($i)
         $name = '{0}_{1}_{2}.msg' -f $stamp, $i, (Get-SafeName $item.Subject)
         $p = Join-Path $saveDir $name
-        $item.SaveAs($p, 3)   # 3 = olMSG
+        $item.SaveAs($p, 9)   # 9 = olMSGUnicode (3 = ANSI olMSG garbles Japanese and breaks parsers)
         [void]$paths.Add($p)
     }
     return ,$paths.ToArray()

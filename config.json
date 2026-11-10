@@ -1,0 +1,10 @@
+{
+  "title": "Claude へ渡す",
+  "label": "メール・ファイル・\nフォルダをドラッグ",
+  "labelBusy": "保存中…",
+  "labelDone": "開きました",
+  "labelError": "失敗しました",
+  "saveDir": "%USERPROFILE%\\Desktop\\mail_drop",
+  "folder": "",
+  "prompt": "次のメール・ファイル・フォルダを読んでください。\n{files}\n\n"
+}

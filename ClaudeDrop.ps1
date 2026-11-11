@@ -64,10 +64,10 @@ $form.FormBorderStyle = 'None'
 $form.TopMost = $true
 $form.ShowInTaskbar = $false
 $form.BackColor = [Drawing.Color]::FromArgb(251, 251, 251)
-$form.ClientSize = New-Object Drawing.Size(184, 96)
+$form.ClientSize = New-Object Drawing.Size(132, 132)
 $form.StartPosition = 'Manual'
 $wa = [Windows.Forms.Screen]::PrimaryScreen.WorkingArea
-$form.Location = New-Object Drawing.Point(($wa.Right - 200), ($wa.Bottom - 120))
+$form.Location = New-Object Drawing.Point(($wa.Right - $form.Width - 16), ($wa.Bottom - $form.Height - 24))
 $form.AllowDrop = $true
 
 # Remember the window position in window.json (not in git).

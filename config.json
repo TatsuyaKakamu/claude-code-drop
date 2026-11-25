@@ -4,6 +4,11 @@
   "labelBusy": "保存中…",
   "labelDone": "開きました",
   "labelError": "失敗しました",
+  "miniTip": "クリックで元の大きさに戻す（ドロップもできます）",
+  "settingsTitle": "設定",
+  "transparencyLabel": "透過率",
+  "transparencyOpaque": "（不透明）",
+  "closeLabel": "閉じる",
   "saveDir": "%USERPROFILE%\\Desktop\\mail_drop",
   "folder": "",
   "prompt": "次のメール・ファイル・フォルダを読んでください。\n{files}\n\n"
